@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Index</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+         line-height: 1.75; max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+         color: #1c1c1c; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #161616; }
+    a { color: #7fb3ff; } code { background: #2a2a2a; } hr { border-top-color: #333; } }
+  h1 { font-size: 1.6rem; margin: 0 0 .3rem; }
+  .sub { color: #666; margin: 0 0 2rem; }
+  h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+  code { background: #f0f0f0; padding: .1rem .35rem; border-radius: 3px; font-size: .9em; }
+  ul { padding-left: 1.3rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 2.5rem 0 1.5rem; }
+  .ja { color: #555; font-size: .93rem; }
+  @media (prefers-color-scheme: dark) { .ja { color: #aaa; } .sub { color: #999; } }
+  footer { margin-top: 3rem; font-size: .85rem; color: #777; }
+</style>
+</head>
+<body>
+
+<h1>Index</h1>
+<p class="sub">A personal automation tool. Single user. Not a commercial service.</p>
+
+<h2>What this application does</h2>
+<p>
+  This is a private, single-user automation tool.
+</p>
+<p class="ja">
+  これは個人が自分ひとりで使う自動化ツールです。
+</p>
+
+<h2>Who can use it</h2>
+<p>
+  Only the owner of this application. There is no sign-up, no user account system, and no
+  way for anyone else to use it. It is not offered to the public.
+</p>
+<p class="ja">
+  利用者は作者本人のみです。登録機能もアカウント機能もなく、第三者が利用する手段はありません。
+</p>
+
+<h2>Google account access</h2>
+<p>
+  The application requests a single, narrowly scoped permission:
+</p>
+<ul>
+  <li><code>https://www.googleapis.com/auth/drive.file</code> — per-file access, limited to
+      files and folders that this application itself creates.</li>
+</ul>
+<p>
+  It cannot see, read, or modify any other file in the owner's Google Drive.
+</p>
+<p class="ja">
+  要求する権限は <code>drive.file</code> のみです。これは<strong>このアプリ自身が作成した
+  ファイルとフォルダにしかアクセスできない</strong>スコープで、Drive 内の他のファイルを
+  閲覧・変更することはできません。
+</p>
+
+<h2>Privacy</h2>
+<p>
+  See the <a href="privacy.html">Privacy Policy</a>.
+</p>
+
+<hr>
+<footer>
+  Personal project. Source: private repository.<br>
+  <a href="privacy.html">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
